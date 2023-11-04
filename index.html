@@ -1,0 +1,134 @@
+<html>
+
+<head>
+    <title>Mobile Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style> 
+        header {
+        background-color: #007BFF;
+        }
+        
+        .product-container {
+        border: 1px solid #ccc;
+        width: 220px;
+        padding: 10px;
+        margin: 26px;
+        text-align: center;
+        top: 0;
+        align-items: match-parent;
+        display: inline-block;
+        }
+
+        .product-container img {
+        align-items: center;
+        }
+  
+        button {
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        }
+
+        button:hover{
+            transform: scale(1.05);        }
+
+        .center-header{
+        text-align: center; /* Center the text horizontally */
+        padding: 1px; /* Add padding for spacing, adjust as needed */
+        }
+        
+        .image-container {
+         display: flex; /* Use Flexbox for layout */
+        align-items: center; /* Vertically align items */
+        }
+        
+        .footer {
+            background-color: rgb(231, 92, 53);
+        }
+        
+        .centerh{
+            text-align: center; /* Center the text horizontally */
+            padding: 1px; /* Add padding for spacing, adjust as needed */
+            color: white;
+        }
+    </style>
+
+    <div id="container">
+        
+        <div id="header">
+            <header class="center-header" >
+            <h1>Items</h1>
+            </header>
+        </div>
+
+        <div id="phones" styles="align-items: center;" >
+            <div id="phone1" class="product-container">
+                <img src="samsung.png" alt="Samsung Galaxy A03s" style="max-width: 100%;"  >
+                <h2>Samsung Galaxy A03s</h2>
+                <button>Add to Cart</button>
+               
+               
+            </div>
+
+            <div id="phone2" class="product-container" >
+                <img src="huawei.png" alt="Huawei NOVA Y70"style="max-width: 52%;">
+                <h2>Huawei NOVA <br>Y70</h2>
+                
+                <button>Add to Cart</button>
+               
+            </div>
+
+            <div id="phone3" class="product-container">
+                <img src="i11.png" alt="Apple iPhone 11 64GB" style="max-width: 66%;" >
+                <h2>Apple iPhone 11 64GB</h2>
+                <button>Add to Cart</button>
+                
+            </div>
+
+            <div id="phone4" class="product-container">
+                <img src="13pro.png" alt="Apple iPhone 13 Pro - 128GB" style="max-width: 56%;" >
+                <h2>Apple iPhone 13 Pro - 128GB</h2>
+                <button>Add to Cart</button>
+           
+            </div>
+
+            <div id="phone5" class="product-container">
+                <img src="ise.png" alt="Apple iPhone SE (2022) 64GB" style="max-width: 66%;">
+                <h2>Apple iPhone SE (2022) 64GB</h2>
+                <button>Add to Cart</button>
+                
+            </div>
+
+        </div>
+
+        <div id="cart" class="footer">
+            
+            <div class="centerh">
+                <h1>Cart</h1>
+            </div>
+
+            <div class="image-container">
+                
+            <img src="shoppingcart.png" alt="Shopping Cart Icon" style="max-width: 5%; margin-right: 4%; margin-left: 2%; margin-bottom: 3%;">
+            
+            <div style="margin-bottom: 2%;">
+            <h2>Items</h2>
+            <ul>
+                <li>1 Samsung Galaxy A03s</li>
+                <li>2 Apple iPhone 11</li>
+            </ul>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
